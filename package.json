@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:dev": "ts-node index.ts",
-    "compile:dev": "trc",
-    "start:prod": "node index.js"
+    "start:dev": "nodemon src/index.ts",
+    "start:prod": "node dist/index.js",
+    "compile": "tsc"
   },
   "keywords": [],
   "author": "",
